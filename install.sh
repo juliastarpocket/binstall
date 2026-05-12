@@ -37,7 +37,7 @@ elif [ "$os" = "Linux" ]; then
     if [ "$machine" = "armv7l" ]; then
         machine="armv7" 
     fi
-    if [ "$machine" = "armv8l"]; then
+    if [ "$machine" = "armv8l" ]; then
         machine="armv7"
     fi
     if [ "$machine" = "riscv64" ]; then
